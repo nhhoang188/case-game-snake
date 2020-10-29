@@ -48,7 +48,8 @@ class Snake{
 		}
 
 		if(!this.endGame()) {
-			alert("You Lose");
+			alert("Bạn Đã Thua, Điểm Của Bạn Là: " + this.snake.length );
+			// start.init();
 		}
 	}
 
